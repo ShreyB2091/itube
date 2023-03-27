@@ -2,9 +2,23 @@
   text-align: center;
 }
 
+.nav {
+  position: fixed;
+  left: 0;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.ant-modal-body {
+  box-sizing: border-box;
+}
+
+.ant-modal-content iframe {
+  box-sizing: border-box;
+  width: 100%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
