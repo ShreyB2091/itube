@@ -73,7 +73,7 @@ const AddCard = () => {
             console.log(err.message);
         })
         
-        if(!buckets.includes(bucket))
+        if(!buckets.find(buc => buc.name === bucket))
         {
             let addBucket = {name: bucket};
             
